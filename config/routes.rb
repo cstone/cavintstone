@@ -1,9 +1,16 @@
 Cavintstone::Application.routes.draw do
-  get "home/index"
 
-  resources :dynamic_contents
+  resources :categories
+
 
   root :to => 'home#index'
+
+  resources :dynamic_contents
+  resources :pages, except: :show
+  get '/contact', to: 'contact_us/contacts#new', as: :contact_cavin
+  get ':id', to: 'pages#show', as: :page
+
+
 
 
   # The priority is based upon order of creation:

@@ -12,12 +12,12 @@
     </div>
     <div class="collapse navbar-collapse navbar-right">
       <ul class="nav navbar-nav">
-        <li><%= link_to 'About Me', '#' %></li>
-        <li><%= link_to 'Skills', '#' %></li>
-        <li><%= link_to 'Work Experience', '#' %></li>
+        <li class="<%= cpa(page_path('about-me')) %>" ><%= link_to 'About Me', page_path('about-me') %></li>
+        <li class="<%= cpa(page_path('skills')) %>"><%= link_to 'Skills', page_path('skills') %></li>
+        <li class="<%= cpa(page_path('work-experience')) %>"><%= link_to 'Work Experience', page_path('work-experience') %></li>
         <li><%= link_to 'Portfolio', '#' %></li>
         <li><%= link_to 'Blog', '#' %></li>
-        <li><%= link_to 'Contact', '#' %></li>
+        <li class="<%= cpa(contact_cavin_path) %>"><%= link_to 'Contact', contact_cavin_path %></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

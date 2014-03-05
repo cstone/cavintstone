@@ -23,6 +23,10 @@ end
 gem 'jquery-rails'
 gem 'formtastic'
 gem 'formtastic-bootstrap'
+gem 'contact_us', '~> 0.5.0'
+gem 'carrierwave'
+gem 'fog'
+gem 'rmagick', '2.13.2', :require => 'RMagick'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
