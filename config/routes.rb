@@ -1,5 +1,8 @@
 Cavintstone::Application.routes.draw do
 
+  resources :articles
+
+
   resources :categories
 
 
@@ -8,6 +11,7 @@ Cavintstone::Application.routes.draw do
   resources :dynamic_contents
   resources :pages, except: :show
   get '/contact', to: 'contact_us/contacts#new', as: :contact_cavin
+  get '/blog', to: 'articles#index', as: :blog
   get ':id', to: 'pages#show', as: :page
 
 

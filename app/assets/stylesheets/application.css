@@ -12,3 +12,8 @@
  *= require formtastic-bootstrap
  *= require mystyles
  */
+
+@import url(http://fonts.googleapis.com/css?family=Prosto+One);
+@import url(http://fonts.googleapis.com/css?family=Germania+One);
+@import url(http://fonts.googleapis.com/css?family=Della+Respira);
+@import url(http://fonts.googleapis.com/css?family=Parisienne);

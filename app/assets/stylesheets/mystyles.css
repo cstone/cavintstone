@@ -14,6 +14,7 @@ h2 {
     font-size: 24px;
     line-height: 24px;
     border-bottom: 1px dotted #AAA;
+
 }
 
 .myname {
@@ -33,7 +34,7 @@ h2 {
 
 .content {
     padding: 15px 0px;
-    margin: 50px 0 75px;
+    margin: 65px 0 75px;
 }
 
 
@@ -59,6 +60,10 @@ body {
 #footer a {
     text-decoration:none;
     color: #333333;
+}
+
+.navbar-brand {
+    font-family: 'Prosto One', cursive;
 }
 
 
