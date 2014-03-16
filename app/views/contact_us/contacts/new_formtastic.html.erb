@@ -1,7 +1,5 @@
-<h2 class="heading">Contact Me</h2>
-<p>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ligula, laoreet a suscipit id, egestas id nibh. Aliquam ultrices dolor metus, ut ultricies tellus tempus placerat. Ut ut mi sed velit consectetur varius vitae at eros. Proin quis interdum turpis. Nunc adipiscing metus eu leo tristique, quis feugiat odio posuere. Nullam fringilla ante massa, nec sagittis odio semper vitae. Suspendisse potenti.
-</p>
+<h2 class="heading"><%= @contact_title %></h2>
+<p><%= @contact_content %></p>
 <%= semantic_form_for @contact, :url => contacts_path do |f| %>
   <%= f.input :name, :label => t('.name') if ContactUs.require_name %>
   <%= f.input :email, :label => t('.email') %>
