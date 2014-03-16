@@ -1,5 +1,7 @@
 Cavintstone::Application.routes.draw do
 
+  root :to => 'home#index'
+
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
@@ -9,7 +11,7 @@ Cavintstone::Application.routes.draw do
   resources :categories
 
 
-  root :to => 'home#index'
+
 
   resources :dynamic_contents
   resources :pages, except: :show

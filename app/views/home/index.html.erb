@@ -1,0 +1,11 @@
+<div class="col-md-6 text-center nametitle">
+  <div>
+    <p class="myname"><%= @home_name %></p>
+    <p class="lead"><%= @home_job_title %></p>
+  </div>
+</div>
+
+<div class="col-md-6">
+
+  <%= simple_format(@home_summary, html_options = { class: 'lead'}) %>
+</div>

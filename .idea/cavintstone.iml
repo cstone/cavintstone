@@ -230,6 +230,7 @@
     <orderEntry type="library" scope="PROVIDED" name="excon (v0.31.0, ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="execjs (v2.0.2, ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fastercsv (v1.5.5, ruby-2.0.0-p247) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="figaro (v0.7.0, ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fog (v1.20.0, ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formatador (v0.2.4, ruby-2.0.0-p247) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="formtastic (v2.2.1, ruby-2.0.0-p247) [gem]" level="application" />

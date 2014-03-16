@@ -31,6 +31,7 @@ h2 {
     overflow: hidden;
     background: url(https://s3.amazonaws.com/cavintstone/img/bg-img.jpg) repeat scroll center top transparent;
 	margin-top: 50px;
+    min-height: 570px;
 }
 
 .content {
