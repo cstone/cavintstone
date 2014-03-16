@@ -27,6 +27,9 @@ gem 'contact_us', '~> 0.5.0'
 gem 'carrierwave'
 gem 'fog'
 gem 'rmagick', '2.13.2', :require => 'RMagick'
+gem 'activeadmin'
+gem 'jquery-ui-rails'
+gem 'active_admin_editor'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

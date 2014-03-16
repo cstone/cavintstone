@@ -18,7 +18,8 @@ h2 {
 }
 
 .myname {
-    font-size: 46px;
+    font-size: 80px;
+    font-family: 'Lobster', cursive;
 
 }
 
@@ -63,7 +64,8 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'Prosto One', cursive;
+    /*font-family: 'Prosto One', cursive;*/
+    font-family: 'Lobster', cursive;
 }
 
 
