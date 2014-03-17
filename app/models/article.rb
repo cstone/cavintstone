@@ -1,5 +1,5 @@
 class Article < ActiveRecord::Base
-  attr_accessible :body, :published, :title, :published_at
+  attr_accessible :body, :published, :title, :published_at, :article_image
 
   default_scope order('published_at DESC')
 
