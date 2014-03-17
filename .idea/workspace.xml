@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a498b01c-e865-4889-aeb4-ed7bdb6cede1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140317151022_add_article_image_to_articles.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/resumes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/article.rb" afterPath="$PROJECT_DIR$/app/models/article.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/articles.rb" afterPath="$PROJECT_DIR$/app/admin/articles.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/uploaders/article_image_uploader.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cavintstone.iws" />
@@ -56,10 +52,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="articles.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="19" selection-start="264" selection-end="264" vertical-scroll-proportion="0.39370078" vertical-offset="0" max-vertical-offset="381">
+            <state line="10" column="19" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article_image_uploader.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/uploaders/article_image_uploader.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.11811024" vertical-offset="0" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -139,6 +144,7 @@
         <option value="$PROJECT_DIR$/app/admin/resumes.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/app/admin/articles.rb" />
+        <option value="$PROJECT_DIR$/app/uploaders/article_image_uploader.rb" />
       </list>
     </option>
   </component>
@@ -243,7 +249,7 @@
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kevinstone/app/admin/pages.rb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../kevinstone/app/uploaders/article_image_uploader.rb" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
@@ -596,7 +602,11 @@
       <created>1395069042003</created>
       <updated>1395069042003</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add article_images">
+      <created>1395073484133</created>
+      <updated>1395073484133</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -648,22 +658,13 @@
     <MESSAGE value="Add resume carrierwave&#10;" />
     <MESSAGE value="Add resume scaffold" />
     <MESSAGE value="Add resume download link" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add resume download link" />
+    <MESSAGE value="Add article_images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add article_images" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20140305050334_create_articles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="12" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_meta-scripts.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="1218" selection-end="1218" vertical-scroll-proportion="1.257485" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140306175239_add_published_at_to_articles.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="12" selection-start="69" selection-end="69" vertical-scroll-proportion="0.041899443" vertical-offset="0" max-vertical-offset="358" />
@@ -990,7 +991,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="19" selection-start="264" selection-end="264" vertical-scroll-proportion="0.39370078" vertical-offset="0" max-vertical-offset="381">
+        <state line="10" column="19" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../kevinstone/app/uploaders/article_image_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="76" selection-end="1299" vertical-scroll-proportion="0.1253482" vertical-offset="0" max-vertical-offset="1110">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/article_image_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.11811024" vertical-offset="0" max-vertical-offset="1110">
           <folding />
         </state>
       </provider>
