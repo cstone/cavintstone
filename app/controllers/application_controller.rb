@@ -8,6 +8,7 @@ class ApplicationController < ActionController::Base
     @home_job_title = DynamicContent.get_value(:home_job_title)
     @home_summary = DynamicContent.get_value(:home_summary)
     @contact_content = DynamicContent.get_value(:contact_content)
+    @resume_link = Resume.first
   end
 
 
