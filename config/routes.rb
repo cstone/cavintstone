@@ -1,5 +1,8 @@
 Cavintstone::Application.routes.draw do
 
+  resources :resumes
+
+
   root :to => 'home#index'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
