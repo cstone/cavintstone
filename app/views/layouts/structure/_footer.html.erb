@@ -4,7 +4,7 @@
       <p class="text-muted">&copy; <%= Time.now.year %> Cavin T. Stone  /  Dallas, Texas / <%= mail_to 'cavin@cavintstone.com' %></p>
     </div>
     <div class="col-md-6 text-right">
-      <p class="text-muted"><a href="#"><i class="fa fa-download"></i> <%= link_to 'Download My Resume', "#{Resume.first.resume_pdf.url}" %></a></p>
+      <p class="text-muted"><%= link_to('<i class="fa fa-download"></i> Download My Resume'.html_safe, "#{Resume.first.resume_pdf.url}") if Resume.first.resume_pdf %></p>
     </div>
   </div>
 </div>
