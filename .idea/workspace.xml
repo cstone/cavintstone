@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a498b01c-e865-4889-aeb4-ed7bdb6cede1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/categories.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140413024923_create_technologies.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/technologies.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/technology.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cavintstone.iws" />
@@ -718,7 +720,15 @@
       <created>1397361707202</created>
       <updated>1397361707202</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Add Categories to ActiveAdmin">
+      <created>1397361733243</created>
+      <updated>1397361733243</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add portfolio_categories">
+      <created>1397361824513</created>
+      <updated>1397361824513</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -762,7 +772,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Update layout" />
     <MESSAGE value="Add active class to navigation links" />
     <MESSAGE value="Add pages and categories" />
     <MESSAGE value="Add articles scaffold for blog" />
@@ -786,7 +795,9 @@
     <MESSAGE value="Update environment files to send email via gmail." />
     <MESSAGE value="Update contact form to display &quot;/thank-you&quot; page after submission." />
     <MESSAGE value="Add Portfolios Scaffold" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Portfolios Scaffold" />
+    <MESSAGE value="Add Categories to ActiveAdmin" />
+    <MESSAGE value="Add portfolio_categories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add portfolio_categories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
