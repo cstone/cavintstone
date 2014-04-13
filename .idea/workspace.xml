@@ -3,18 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a498b01c-e865-4889-aeb4-ed7bdb6cede1" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/categories.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portfolios/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/portfolio.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/portfolios.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/javascripts/portfolios.js.coffee" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/portfolios.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/portfolios_helper.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/portfolios/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cavintstone.iml" afterPath="$PROJECT_DIR$/.idea/cavintstone.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cavintstone.iws" />
@@ -726,7 +714,11 @@
       <created>1397351493529</created>
       <updated>1397351493529</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Add Portfolios Scaffold">
+      <created>1397361707202</created>
+      <updated>1397361707202</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -793,7 +785,8 @@
     <MESSAGE value="Update page title to &quot;Cavin T. Stone :: Ruby on Rails Developer // Front-End Web Designer&quot;" />
     <MESSAGE value="Update environment files to send email via gmail." />
     <MESSAGE value="Update contact form to display &quot;/thank-you&quot; page after submission." />
-    <option name="LAST_COMMIT_MESSAGE" value="Update contact form to display &quot;/thank-you&quot; page after submission." />
+    <MESSAGE value="Add Portfolios Scaffold" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Portfolios Scaffold" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
