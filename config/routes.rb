@@ -1,24 +1,14 @@
 Cavintstone::Application.routes.draw do
 
-  resources :portfolios
-
-
-  resources :resumes
-
-
   root :to => 'home#index'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
 
   resources :articles
-
-
   resources :categories
-
-
-
-
+  resources :portfolios, path: "works"
+  resources :resumes
   resources :dynamic_contents
   resources :pages, except: :show
   get '/contact', to: 'contact_us/contacts#new', as: :contact_cavin
