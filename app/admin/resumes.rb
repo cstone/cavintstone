@@ -1,5 +1,7 @@
 ActiveAdmin.register Resume do
 
+  menu :label => "Resume"
+
   form do |f|
     f.inputs "PDF" do
       f.file_field :resume_pdf
