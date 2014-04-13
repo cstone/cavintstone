@@ -1,5 +1,8 @@
 Cavintstone::Application.routes.draw do
 
+  resources :portfolios
+
+
   resources :resumes
 
 
