@@ -1,25 +1,16 @@
-<p id="notice"><%= notice %></p>
+<% @page_header = "Portfolio :: #{@portfolio.title}" %>
 
-<p>
-  <b>Title:</b>
-  <%= @portfolio.title %>
-</p>
-
-<p>
-  <b>Portfolio image:</b>
-  <%= @portfolio.portfolio_image %>
-</p>
-
-<p>
-  <b>Description:</b>
-  <%= @portfolio.description %>
-</p>
-
-<p>
-  <b>Website:</b>
-  <%= @portfolio.website %>
-</p>
+<div class="row">
+  <div class="col-md-7">
+    <%= image_tag("#{@portfolio.portfolio_image.url}") %>
+  </div>
 
 
-<%= link_to 'Edit', edit_portfolio_path(@portfolio) %> |
-<%= link_to 'Back', portfolios_path %>
+
+  <div class="col-md-5">
+    <h4><%= link_to "#{@portfolio.title}", '#' %></h4>
+    <p><%= simple_format @portfolio.description %></p>
+    <p><%= link_to 'View website', @portfolio.website %></p>
+  </div>
+
+</div>

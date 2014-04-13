@@ -1,29 +1,21 @@
-<h1>Listing portfolios</h1>
-
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Portfolio image</th>
-    <th>Description</th>
-    <th>Website</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<% @page_header = 'Portfolio' %>
 
 <% @portfolios.each do |portfolio| %>
-  <tr>
-    <td><%= portfolio.title %></td>
-    <td><%= portfolio.portfolio_image %></td>
-    <td><%= portfolio.description %></td>
-    <td><%= portfolio.website %></td>
-    <td><%= link_to 'Show', portfolio %></td>
-    <td><%= link_to 'Edit', edit_portfolio_path(portfolio) %></td>
-    <td><%= link_to 'Destroy', portfolio, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
+    <div class="row">
+      <div class="col-md-7">
+        <%= link_to(image_tag("#{portfolio.portfolio_image.url}"), portfolio ) %>
+      </div>
+
+
+
+      <div class="col-md-5">
+        <h4><%= link_to "#{portfolio.title}", portfolio %></h4>
+        <p><%= simple_format portfolio.description %></p>
+        <p><%= link_to 'View website', portfolio.website %></p>
+      </div>
+
+    </div>
+    <hr/>
 <% end %>
-</table>
 
-<br />
-
-<%= link_to 'New Portfolio', new_portfolio_path %>
+<%= paginate @portfolios %>
