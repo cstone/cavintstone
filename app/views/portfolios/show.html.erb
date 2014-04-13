@@ -1,16 +1,18 @@
 <% @page_header = "Portfolio :: #{@portfolio.title}" %>
 
 <div class="row">
-  <div class="col-md-7">
-    <%= image_tag("#{@portfolio.portfolio_image.url}") %>
+  <div class="col-md-6">
+    <%= image_tag @portfolio.portfolio_image.url, class: 'img-responsive' %>
   </div>
 
 
 
-  <div class="col-md-5">
-    <h4><%= link_to "#{@portfolio.title}", '#' %></h4>
-    <p><%= simple_format @portfolio.description %></p>
-    <p><%= link_to 'View website', @portfolio.website %></p>
+  <div class="col-md-6">
+    <h4><%= @portfolio.title %></h4>
+    <p><strong>Project Type:</strong> <%= @portfolio.portfolio_category.name %></p>
+    <p><strong>Technologies used:</strong> <%= @portfolio.technologies.map(&:name).join(", ") %></p>
+    <p><%= simple_format @portfolio.description if @portfolio.description %></p>
+    <p><%= link_to 'View website', @portfolio.website if @portfolio.website %></p>
   </div>
 
 </div>
