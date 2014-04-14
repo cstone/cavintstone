@@ -59,8 +59,8 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/portfolios/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6069364" vertical-offset="0" max-vertical-offset="360">
-              <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+            <state vertical-scroll-proportion="0.7369942" vertical-offset="0" max-vertical-offset="360">
+              <caret line="17" column="111" selection-start-line="17" selection-start-column="111" selection-end-line="17" selection-end-column="111" />
               <folding />
             </state>
           </provider>
@@ -798,7 +798,11 @@
       <created>1397519505966</created>
       <updated>1397519505967</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Open &quot;View website&quot; link in a new window">
+      <created>1397519705329</created>
+      <updated>1397519705329</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -842,7 +846,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Update portfolio views" />
     <MESSAGE value="Add resume_technology join table" />
     <MESSAGE value="Add portfolio_technology join table" />
     <MESSAGE value="Add association join table to portfolio categories and portfolios" />
@@ -867,7 +870,8 @@
     <MESSAGE value="Update new portfolio form in ActiveAdmin to include image" />
     <MESSAGE value="Change link to read &quot;Download my resume&quot;" />
     <MESSAGE value="Add external link icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add external link icon" />
+    <MESSAGE value="Open &quot;View website&quot; link in a new window" />
+    <option name="LAST_COMMIT_MESSAGE" value="Open &quot;View website&quot; link in a new window" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1253,8 +1257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/portfolios/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6069364" vertical-offset="0" max-vertical-offset="360">
-          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+        <state vertical-scroll-proportion="0.7369942" vertical-offset="0" max-vertical-offset="360">
+          <caret line="17" column="111" selection-start-line="17" selection-start-column="111" selection-end-line="17" selection-end-column="111" />
           <folding />
         </state>
       </provider>
