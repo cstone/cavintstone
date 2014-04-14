@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
     @home_summary = DynamicContent.get_value(:home_summary)
     @contact_content = DynamicContent.get_value(:contact_content)
     @resume_link = Resume.first
+    @all_articles = Article.all
   end
 
 
