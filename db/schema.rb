@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140413033208) do
+ActiveRecord::Schema.define(:version => 20140413142212) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -92,14 +92,25 @@ ActiveRecord::Schema.define(:version => 20140413033208) do
     t.string   "portfolio_image"
     t.text     "description"
     t.string   "website"
-    t.datetime "created_at",      :null => false
-    t.datetime "updated_at",      :null => false
+    t.datetime "created_at",            :null => false
+    t.datetime "updated_at",            :null => false
+    t.integer  "portfolio_category_id"
+  end
+
+  create_table "portfolios_technologies", :id => false, :force => true do |t|
+    t.integer "portfolio_id"
+    t.integer "technology_id"
   end
 
   create_table "resumes", :force => true do |t|
     t.string   "resume_pdf"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
+  end
+
+  create_table "resumes_technologies", :id => false, :force => true do |t|
+    t.integer "resume_id"
+    t.integer "technology_id"
   end
 
   create_table "technologies", :force => true do |t|
