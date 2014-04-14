@@ -1,4 +1,9 @@
+$gray: #777777;
 
+
+body {
+  color: lighten($gray, 5%);
+}
 
 h2 {
     margin: 0px 0px 20px;
@@ -39,6 +44,29 @@ h2 {
     margin: 65px 0 75px;
 }
 
+
+.btn-primary {
+    color: #fff;
+    background-color: $gray;
+    border-color: darken($gray, 2%);
+}
+
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+    color: #fff;
+  background-color: darken($gray, 10%);
+  border-color: darken($gray, 12%);
+}
+
+a {
+  color: $gray;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: $gray;
+  text-decoration: underline;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
