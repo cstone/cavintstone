@@ -1,8 +1,8 @@
 <h3><%= @article.title %></h3>
-<p><%= time_ago_in_words @article.published %></p>
+<p><%= time_ago_in_words(@article.created_at) %> ago</p>
 
 
-<p><%= @article.body %></p>
+<p><%= @article.body.html_safe %></p>
 
 
 
