@@ -20,7 +20,7 @@ ActiveAdmin.register Article do
   index do
     selectable_column
     column :article_image do |article|
-      if !article.article_image.empty?
+      if article.article_image
         image_tag article.article_image.url(:thumb)
       end
     end
@@ -39,12 +39,14 @@ ActiveAdmin.register Article do
       row :id
       row :title
       row :published
-      row :published_at
+      row :published_at do
+        article.published_at.to_formatted_s(:default)
+      end
       row :body do
         article.body.html_safe
       end
       row :article_image do
-        if !article.article_image.empty?
+        if article.article_image
           image_tag article.article_image.url
         end
       end

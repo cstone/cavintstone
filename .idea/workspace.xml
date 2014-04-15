@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a498b01c-e865-4889-aeb4-ed7bdb6cede1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20140415003433_remove_description_from_categories.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/articles.rb" afterPath="$PROJECT_DIR$/app/admin/articles.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cavintstone.iws" />
@@ -47,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="articles.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="articles.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.4308094" vertical-offset="495" max-vertical-offset="1065">
+              <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -77,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="schema.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0675676" vertical-offset="765" max-vertical-offset="1905">
+            <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1905">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -156,10 +155,10 @@
         <option value="$PROJECT_DIR$/app/views/portfolios/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/articles/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/admin/articles.rb" />
         <option value="$PROJECT_DIR$/config/initializers/time_formats.rb" />
         <option value="$PROJECT_DIR$/app/models/article.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140415003433_remove_description_from_categories.rb" />
+        <option value="$PROJECT_DIR$/app/admin/articles.rb" />
       </list>
     </option>
   </component>
@@ -821,7 +820,11 @@
       <created>1397521874904</created>
       <updated>1397521874904</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Remove description from categories migration">
+      <created>1397522217065</created>
+      <updated>1397522217065</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -865,7 +868,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Update portfolio index view with col-md-6" />
     <MESSAGE value="Update portfolio show view with col-md-6" />
     <MESSAGE value="Add Disqus to website" />
     <MESSAGE value="Add resume download button if on resume page" />
@@ -890,7 +892,8 @@
     <MESSAGE value="Add time_formats initializer" />
     <MESSAGE value="Add article_image_uploader" />
     <MESSAGE value="Update index, show and form on ActiveAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update index, show and form on ActiveAdmin" />
+    <MESSAGE value="Remove description from categories migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove description from categories migration" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1264,14 +1267,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140415003433_remove_description_from_categories.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29166666" vertical-offset="0" max-vertical-offset="360">
@@ -1282,8 +1277,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0675676" vertical-offset="765" max-vertical-offset="1905">
+        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1905">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/articles.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4308094" vertical-offset="495" max-vertical-offset="1065">
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
           <folding />
         </state>
       </provider>
