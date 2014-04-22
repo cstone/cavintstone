@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a498b01c-e865-4889-aeb4-ed7bdb6cede1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/mystyles.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/mystyles.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/structure/_nav.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/structure/_nav.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cavintstone.iws" />
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_nav.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_nav.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_nav.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="510">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state vertical-scroll-proportion="1.1111112" vertical-offset="0" max-vertical-offset="510">
+              <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -66,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mystyles.css.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mystyles.css.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mystyles.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.18518518" vertical-offset="0" max-vertical-offset="1875">
+            <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1875">
               <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
               <folding />
             </state>
@@ -176,9 +176,9 @@
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/structure/_nav.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/structure/_footer.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/mystyles.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/layouts/structure/_nav.html.erb" />
       </list>
     </option>
   </component>
@@ -978,7 +978,11 @@
       <created>1398130513263</created>
       <updated>1398130513263</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Darken font color">
+      <created>1398137640985</created>
+      <updated>1398137640985</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1022,7 +1026,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Add if statement for article images in ActiveAdmin" />
     <MESSAGE value="Add to_param method to portfolio model" />
     <MESSAGE value="Add relationship to portfolios" />
     <MESSAGE value="Add index and show actions" />
@@ -1047,7 +1050,8 @@
     <MESSAGE value="Remove path rename" />
     <MESSAGE value="Update routes to add works instead of portfolio" />
     <MESSAGE value="Update navigation to add if statement for portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update navigation to add if statement for portfolio" />
+    <MESSAGE value="Darken font color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Darken font color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1379,14 +1383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_nav.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_meta-scripts.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="510">
@@ -1413,8 +1409,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/mystyles.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18518518" vertical-offset="0" max-vertical-offset="1875">
+        <state vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="1875">
           <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/structure/_nav.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1111112" vertical-offset="0" max-vertical-offset="510">
+          <caret line="24" column="100" selection-start-line="24" selection-start-column="100" selection-end-line="24" selection-end-column="100" />
           <folding />
         </state>
       </provider>
