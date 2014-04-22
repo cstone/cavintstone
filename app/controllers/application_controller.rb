@@ -10,6 +10,7 @@ class ApplicationController < ActionController::Base
     @contact_content = DynamicContent.get_value(:contact_content)
     @resume_link = Resume.first
     @all_articles = Article.all
+    @all_portfolio = Portfolio.all
   end
 
 

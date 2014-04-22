@@ -20,7 +20,9 @@
         <% if !@all_articles.empty? %>
         <li class="<%= cpa(blog_path) %>"><%= link_to 'Blog', blog_path %></li>
         <% end %>
+        <% if !@all_portfolio.empty?  %>
         <li class="<%= cpa(contact_cavin_path) %>"><%= link_to 'Contact', contact_cavin_path %></li>
+        <% end %>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
