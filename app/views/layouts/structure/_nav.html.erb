@@ -17,7 +17,9 @@
         <li class="<%= cpa(page_path('work-experience')) %>"><%= link_to 'Work Experience', page_path('work-experience') %></li>
         <li class="<%= cpa(page_path('resume')) %>"><%= link_to 'Resume', page_path('resume') %></li>
         <li class="<%= cpa(portfolios_path) %>"><%= link_to 'Portfolio', portfolios_path %></li>
+        <% if !@all_articles.empty? %>
         <li class="<%= cpa(blog_path) %>"><%= link_to 'Blog', blog_path %></li>
+        <% end %>
         <li class="<%= cpa(contact_cavin_path) %>"><%= link_to 'Contact', contact_cavin_path %></li>
       </ul>
     </div><!--/.nav-collapse -->
