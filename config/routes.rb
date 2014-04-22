@@ -7,8 +7,7 @@ Cavintstone::Application.routes.draw do
 
   resources :articles
   resources :categories
-  #resources :portfolios, path: "works"
-  resources :portfolios
+  resources :portfolios, path: "works"
   resources :resumes
   resources :dynamic_contents
   resources :pages, except: :show
