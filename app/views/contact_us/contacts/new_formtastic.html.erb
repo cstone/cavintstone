@@ -1,5 +1,5 @@
 <h2 class="heading"><%= @contact_title %></h2>
-<p><%= @contact_content %></p>
+<p><%= @contact_content.html_safe %></p>
 <%= semantic_form_for @contact, :url => contacts_path do |f| %>
   <%= f.input :name, :label => t('.name') if ContactUs.require_name %>
   <%= f.input :email, :label => t('.email') %>
